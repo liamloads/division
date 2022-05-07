@@ -13,6 +13,14 @@ const twexxorDivisionCalculator = function(_16_4, _16_5) {
 		return '0';
 	}
 
+	if (_16_4[1] === '0') {
+		return false;
+	}
+
+	if (_16_4[1] === '1') {
+		return _16_4[0];
+	}
+
 	_16_5 = '';
 	let _16_6 = [];
 	let _16_7 = [];
