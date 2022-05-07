@@ -42,6 +42,14 @@ const twexxorDivisionCalculator = function(_16_3, _16_4) {
 		_16_8++;
 	}
 
+	if (_16_7[0] !== _16_7[1]) {
+		// todo
+	}
+
+	if (_16_3[1] === _16_2(_16_3[0], _16_3[1])) {
+		// todo
+	}
+
 	// todo
 };
 
