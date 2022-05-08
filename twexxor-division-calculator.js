@@ -123,7 +123,6 @@ const twexxorDivisionCalculator = function(_16_4, _16_5) {
 		_16_15 = false;
 	}
 
-	// todo
 	_16_6 = _16_1(_16_6, _16_12);
 
 	if (_16_6 === _16_9) {
