@@ -139,7 +139,7 @@ const twexxorDivisionCalculator = function(_16_4, _16_5) {
 
 	if (_16_9 !== _16_12) {
 		//_16_7 = twexxorDivisionCalculator(_16_9, _16_4[1]);
-		//_16_9 = _16_1(_16_14, _16_9);
+		//_16_9 = _16_1(_16_14, _16_7);
 	}
 
 	// todo
