@@ -81,6 +81,7 @@ const twexxorDivisionCalculator = function(_16_4, _16_5) {
 		_16_5 += _16_9;
 	}
 
+	// todo
 	_16_6 = _16_7[1];
 	_16_8 = _16_6;
 	_16_9 = _16_7[0];
