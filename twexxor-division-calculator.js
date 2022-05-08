@@ -4,6 +4,7 @@ const _16_2 = require('twexxor-highest-detector');
 const _16_3 = require('twexxor-string-repeater');
 
 const twexxorDivisionCalculator = function(_16_4, _16_5) {
+	// todo
 	_16_4 = [
 		_16_1(_16_4, '0'),
 		_16_1(_16_5, '0')
