@@ -155,9 +155,9 @@ const twexxorDivisionCalculator = function(_16_4, _16_5) {
 		_16_14 += '0';
 	}
 
-	_16_10 += _16_14 + twexxorDivisionCalculator(_16_10, _16_4[1]);
+	_16_6 = _16_14 + twexxorDivisionCalculator(_16_10, _16_4[1]);
 	// todo
-	//return _16_9;
+	return _16_6;
 };
 
 if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
