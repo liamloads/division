@@ -157,6 +157,13 @@ const twexxorDivisionCalculator = function(_16_4, _16_5, _16_6) {
 	}
 
 	_16_6 = _16_14 + twexxorDivisionCalculator(_16_10, _16_4[1]);
+	_16_7 = _16_6.length;
+	_16_8 = 0;
+
+	while (_16_8 !== _16_7) {
+		// todo
+	}
+
 	// todo
 	return _16_6;
 };
