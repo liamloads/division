@@ -26,7 +26,11 @@ const twexxorDivisionCalculator = function(_16_4, _16_5, _16_6, _16_7) {
 	}
 
 	if (typeof _16_6 === 'undefined') {
-		_16_6 = 30;
+		_16_6 = 10;
+	}
+
+	if (typeof _16_7 === 'undefined') {
+		_16_6 += 5;
 	}
 
 	_16_5 = '';
