@@ -103,7 +103,7 @@ const twexxorDivisionCalculator = function(_16_4, _16_5, _16_6, _16_7) {
 		_16_5 += _16_11;
 	}
 
-	// todo
+	// todo: long division with multiplication module instead of recursion with call stack size limit
 	return _16_8;
 };
 
