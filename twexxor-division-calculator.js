@@ -4,7 +4,7 @@ const _16_2 = require('twexxor-highest-detector');
 const _16_3 = require('twexxor-multiplication-calculator');
 const _16_4 = require('twexxor-string-repeater');
 
-const twexxorDivisionCalculator = function(_16_4, _16_5, _16_6, _16_7) {
+const twexxorDivisionCalculator = function(_16_4, _16_5, _16_6) {
 	// todo
 	_16_4 = [
 		_16_1(_16_4, '0'),
@@ -31,10 +31,6 @@ const twexxorDivisionCalculator = function(_16_4, _16_5, _16_6, _16_7) {
 		_16_6 = 10;
 	}
 
-	if (typeof _16_7 === 'undefined') {
-		_16_6 += 5;
-	}
-
 	_16_5 = '';
 	let _16_8 = [];
 	let _16_9 = [];
@@ -46,28 +42,21 @@ const twexxorDivisionCalculator = function(_16_4, _16_5, _16_6, _16_7) {
 
 	while (_16_11 !== 2) {
 		_16_5 = _16_4[_16_11];
-
-		if (_16_5[0] !== '-') {
-			_16_5 = '-' + _16_5;
-			_16_4[_16_11] = _16_5;
-			_16_12++;
-		}
-
 		_16_8[_16_11] = _16_5.length + '';
 		_16_13 = _16_8.length;
 		_16_14 = 0;
 
-		while (_16_14 !== _16_13) {
+		while (_16_13 !== _16_14) {
 			if (typeof _16_0[_16_8[_16_11][_16_14++]] === 'number') {
 				return false;
 			}
 		}
 
 		_16_9[_16_11] = '';
-		_16_12 = _16_8[_16_11]--;
+		_16_12 = _16_8[_16_11] - 0;
 		_16_13 = 1;
 
-		while (_16_13 !== _16_12) {
+		while (_16_12 !== _16_13) {
 			if (typeof _16_0[_16_4[_16_11][_16_13] - 0] === 'number') {
 				_16_10[_16_11] = _16_8[_16_11]-- - _16_13++;
 				continue;
@@ -76,11 +65,7 @@ const twexxorDivisionCalculator = function(_16_4, _16_5, _16_6, _16_7) {
 			_16_9[_16_11] += _16_4[_16_11][_16_13++];
 		}
 
-		if (_16_5[1] === '0') {
-			_16_8[_16_11]--;
-			_16_9[_16_11] = _16_1(_16_9[_16_11], '0');
-		}
-
+		// todo
 		_16_11++;
 	}
 
