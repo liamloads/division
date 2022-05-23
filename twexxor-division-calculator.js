@@ -1,8 +1,7 @@
 const _16_0 = {'e': 1, 'E': 1, 'NaN': 1};
 const _16_1 = require('twexxor-addition-calculator');
-const _16_2 = require('twexxor-highest-detector');
-const _16_3 = require('twexxor-multiplication-calculator');
-// const _16_4 = require('twexxor-quotient-calculator');
+const _16_2 = require('twexxor-multiplication-calculator');
+const _16_3 = require('twexxor-quotient-calculator');
 const _16_4 = require('twexxor-string-repeater');
 
 const twexxorDivisionCalculator = function(_16_5, _16_6, _16_7) {
