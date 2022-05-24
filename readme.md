@@ -13,7 +13,7 @@ twexxorDivisionCalculator('1', '100');
 twexxorDivisionCalculator('-69', 9); // '-7.6666666666'
 twexxorDivisionCalculator('9', '-69'); // '-0.130434782'
 twexxorDivisionCalculator('-0', '0'); // false
-twexxorDivisionCalculator('340', '340');
+twexxorDivisionCalculator('340', '340'); // '1'
 twexxorDivisionCalculator('340', '341');
 twexxorDivisionCalculator('341', '340');
 twexxorDivisionCalculator(-0.001, 0.00011);
