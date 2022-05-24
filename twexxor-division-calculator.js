@@ -85,11 +85,26 @@ const twexxorDivisionCalculator = function(_16_5, _16_6, _16_7) {
 
 	_16_9 = _16_9.length;
 	_16_8 = _16_2(_16_5 + _16_4('0', _16_1(_16_9, _16_7)), _16_8);
-	// todo
+	_16_10 = 0;
+
+	while (_16_9 !== _16_10) {
+		_16_6 += _16_8[_16_10++];
+	}
+
+	_16_6 += '.';
+	_16_9 = _16_8.length;
+
+	while (_16_9 !== _16_10) {
+		_16_6 += _16_8[_16_10++]
+	}
+
+	if (_16_6[_16_10 - 1] === '0') {
+		_16_6 = _16_1(_16_6, '0');
+	}
+
 	return _16_6;
 };
 
 if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
 	module.exports = twexxorDivisionCalculator;
 }
- 
