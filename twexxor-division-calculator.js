@@ -46,7 +46,7 @@ const twexxorDivisionCalculator = function(_16_5, _16_6, _16_7) {
 		_16_8 = _16_6.length + '';
 		_16_11 += _16_10;
 		_16_12 = _16_8.length;
-		_16_13 = _16_10;
+		_16_13 = 0;
 
 		while (_16_12 !== _16_13) {
 			if (typeof _16_0[_16_8[_16_13++]] === 'number') {
@@ -92,3 +92,4 @@ const twexxorDivisionCalculator = function(_16_5, _16_6, _16_7) {
 if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
 	module.exports = twexxorDivisionCalculator;
 }
+ 
