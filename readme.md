@@ -9,7 +9,7 @@ twexxorDivisionCalculator('-1000', 34); // '-29.4117647058'
 twexxorDivisionCalculator('-1000', 34, 0); // '-29'
 twexxorDivisionCalculator('-1000', 34, 51); // '-29.411764705882352941176470588235294117647058823529411'
 twexxorDivisionCalculator('-100', 0); // false
-twexxorDivisionCalculator('1', '100');
+twexxorDivisionCalculator('1', '100'); // '0.01'
 twexxorDivisionCalculator('-69', 9); // '-7.6666666666'
 twexxorDivisionCalculator('9', '-69'); // '-0.130434782'
 twexxorDivisionCalculator('-0', '0'); // false
