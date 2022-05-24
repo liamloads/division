@@ -1,6 +1,9 @@
 {
 	"dependencies": {
-		"twexxor-addition-calculator": "1.0.9"
+		"twexxor-addition-calculator": "1.0.9",
+		"twexxor-quotient-calculator": "",
+		"twexxor-remainder-calculator": "",
+		"twexxor-string-repeater": "",
 	},
 	"description": "Calculate huge decimal number quotients with precise strings.",
 	"keywords": ["big", "calculation", "divide", "fast", "integer", "large", "math", "precision"],
