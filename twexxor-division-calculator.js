@@ -29,7 +29,7 @@ const twexxorDivisionCalculator = function(_16_5, _16_6, _16_7) {
 	_16_7 = _16_1(_16_7, '0');
 
 	if (_16_7 === false) {
-		_16_7 = 100;
+		_16_7 = 10;
 	}
 
 	_16_6 = '';
