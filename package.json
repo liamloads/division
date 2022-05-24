@@ -1,0 +1,15 @@
+{
+	"dependencies": {
+		"twexxor-addition-calculator": "1.0.9"
+	},
+	"description": "Calculate huge decimal number quotients with precise strings.",
+	"keywords": ["big", "calculation", "divide", "fast", "integer", "large", "math", "precision"],
+	"license": "Read license.md.",
+	"main": "twexxor-division-calculator.js",
+	"name": "twexxor-division-calculator",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/twexxor/twexxor-division-calculator.git"
+	},
+	"version": "1.0.0"
+}
