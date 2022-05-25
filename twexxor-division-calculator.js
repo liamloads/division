@@ -91,9 +91,7 @@ const twexxorDivisionCalculator = function(_20_5, _20_6, _20_7) {
 			// todo (decimal number dividend)
 		}
 	];
-	_20_11 = _20_10[(typeof _20_5[_20_9[0]] === 'string')]();
-	// todo
-	return _20_6 + _20_11;
+	return _20_6 + _20_10[(typeof _20_5[_20_9[0]] === 'string')]();
 };
 
 if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
