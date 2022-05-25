@@ -60,7 +60,7 @@ const twexxorDivisionCalculator = function(_20_5, _20_6, _20_7) {
 
 		while (_20_8 !== _20_11) {
 			if (typeof _20_0[_20_6[_20_11] - 0] === 'number') {
-				_20_9[_20_10] = _20_6[_20_11++];
+				_20_9[_20_10] = _20_11++;
 				continue;
 			}
 
