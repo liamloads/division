@@ -114,7 +114,7 @@ const twexxorDivisionCalculator = function(_20_5, _20_6, _20_7) {
 			_20_10 = _20_8.length;
 
 			if (_20_10 !== _20_11) {
-				if (_20_12 === 1) {
+				if (_20_12 === 0) {
 					_20_6 += '.';
 				}
 
