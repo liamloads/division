@@ -84,6 +84,7 @@ const twexxorDivisionCalculator = function(_20_5, _20_6, _20_7) {
 
 	_20_8 = _20_5[1];
 	_20_5 = _20_5[0];
+	// todo
 	_20_10 = [
 		function() {
 			_20_10 = _20_2(_20_5, _20_8);
@@ -130,7 +131,7 @@ const twexxorDivisionCalculator = function(_20_5, _20_6, _20_7) {
 			return _20_6;
 		},
 		function() {
-			// todo (decimal number dividend)
+			// todo
 		}
 	];
 	return _20_10[(typeof _20_5[_20_9[0]] === 'string') - 0]();
