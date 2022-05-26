@@ -140,6 +140,8 @@ const twexxorDivisionCalculator = function(_20_5, _20_6, _20_7) {
 			return _20_6;
 		},
 		function() {
+			_20_12 = _20_5.length;
+			_20_13 = 0;
 			// todo
 		}
 	];
