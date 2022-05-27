@@ -33,6 +33,7 @@ const twexxorDivisionCalculator = function(_20_5, _20_6, _20_7) {
 	}
 
 	_20_6 = '';
+	_20_7 -= 0;
 	let _20_8 = '';
 	let _20_9 = ['', ''];
 	let _20_10 = [0, 0];
