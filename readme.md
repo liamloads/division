@@ -19,8 +19,9 @@ twexxorDivisionCalculator('341', '340'); // '1.0029411764'
 twexxorDivisionCalculator(-0.001, 0.00011); // '-9.0909090909'
 twexxorDivisionCalculator(-0.001, 0.00011, 11); // '-9.0909090909'
 twexxorDivisionCalculator(-0.001, 0.00011, 12); // '-9.090909090909'
-twexxorDivisionCalculator(-0.001, 123456); // todo
-twexxorDivisionCalculator(-0.001, 123456, 1); // todo
+twexxorDivisionCalculator(-0.001, 123456); // '-0.0000000081'
+twexxorDivisionCalculator(-0.001, 123456, 1); // '0'
+twexxorDivisionCalculator(-0.001, 123456, '15'); // ''
 twexxorDivisionCalculator('123456789123456789', '1111'); // '111122222433354.4455445544'
 twexxorDivisionCalculator('0.00000000000011111111111111111111111111111111111111111234', '0.00000000000000000000000000000000000000000000000000000000000009'); // '1234567901234567901234567901234567901234581555555.5555555555'
 ```
