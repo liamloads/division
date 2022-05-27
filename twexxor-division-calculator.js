@@ -26,7 +26,7 @@ const twexxorDivisionCalculator = function(_20_5, _20_6, _20_7) {
 		return '1';
 	}
 
-	_20_7 = _20_1(_20_7, '0');
+	_20_7 = _20_1(_20_7, '0') - 0;
 
 	if (_20_7 === false) {
 		_20_7 = 10;
