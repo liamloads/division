@@ -1,5 +1,3 @@
-In development.
-
 ``` console
 npm install twexxor-division-calculator
 ```
