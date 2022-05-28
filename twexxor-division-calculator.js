@@ -10,7 +10,7 @@ const twexxorDivisionCalculator = function(_20_5, _20_6, _20_7) {
 		_20_1(_20_6, '0')
 	];
 
-	if (_20_5[0] === false || _20_5[1] === '0') {
+	if ((_20_5[0] === false) || (_20_5[1] === '0')) {
 		return false;
 	}
 
@@ -156,7 +156,7 @@ const twexxorDivisionCalculator = function(_20_5, _20_6, _20_7) {
 
 	_20_8 = _20_1(_20_6, '0');
 
-	if (_20_7 === false || _20_8 === '0') {
+	if ((_20_7 === false) || (_20_8 === '0')) {
 		_20_6 = _20_8;
 	}
 
