@@ -1,4 +1,4 @@
-const _20_0 = {'e': 1, 'E': 1, 'NaN': 1};
+const _20_0 = {'E': 1, 'NaN': 1, 'e': 1};
 const _20_1 = require('twexxor-addition-calculator');
 const _20_2 = require('twexxor-quotient-calculator');
 const _20_3 = require('twexxor-remainder-calculator');
