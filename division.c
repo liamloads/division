@@ -169,5 +169,30 @@ int main(int _3, char *_4[]) {
         printf("-");
     }
 
+    if ((_9 == 1) && (_10[0] == 49)) {
+        if (_5 == _7) {
+            printf("%s", _6);
+        } else {
+            if (_7 == 0) {
+                printf("0");
+            } else {
+                _8 = 0;
+
+                while (_7 != _8) {
+                    printf("%c", _6[_8++]);
+                }
+            }
+
+            printf(".");
+
+            while (_5 != _8) {
+                printf("%c", _6[_8++]);
+            }
+        }
+
+        return 0;
+    }
+
     // todo
+    return 0;
 }
