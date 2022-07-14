@@ -223,8 +223,6 @@ int main(int _3, char *_4[]) {
             while (_5 != _7) {
                 printf("%c", _6[_7++]);
             }
-
-            // todo
         }
 
         return 0;
